@@ -36,7 +36,7 @@ const WorkShopCard = ({
           {date.split("T")[0]} , {date.split("T")[1]}
         </h3>
         {type && type === "Online" ? (
-          <a href={url}>
+          <a href={url} target="_blank">
             <BiWifi2 />
             {url}
           </a>
