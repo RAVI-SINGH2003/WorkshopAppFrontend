@@ -1,0 +1,24 @@
+.workshops_container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 2rem;
+  max-width: 100%;
+  height: 100vh;
+  max-height: 100vh;
+  overflow-y: scroll;
+  position: relative;
+}
+.workshops_container .message {
+  position: absolute;
+  top:40%;
+  left : 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  padding: 1rem 2rem;
+  background: #7c7979;
+  color: whitesmoke;
+  border-radius: 50px;
+  font-size: 1.5rem;
+}

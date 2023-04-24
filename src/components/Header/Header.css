@@ -1,0 +1,33 @@
+.header {
+  padding-top: 5rem;
+  overflow-y: scroll;
+  height: 100%;
+  max-height: 100vh;
+}
+.header a {
+  display: block;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #575656;
+  background: rgba(232, 230, 230, 0.79);
+  margin-bottom: 2rem;
+  padding: 0.8rem 2.5rem 0.8rem 2rem;
+  text-align: end;
+  text-decoration: none;
+}
+.header a.active {
+  border-left: 9px solid #f91515;
+  color: #f00f0f;
+}
+
+@media (max-width: 750px) {
+  .header {
+    padding-top: 0;
+    height: auto;
+    max-height: auto;
+  }
+  .header a {
+    text-align: center;
+    margin-bottom: 5px;
+  }
+}

@@ -1,0 +1,81 @@
+.workshop_card {
+  width: 300px;
+  margin-bottom: 2rem;
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-radius: 20px;
+  background-color: #d9d9d9;
+  height: 410px;
+  max-height: 500px;
+  position: relative;
+}
+.workshop_card_image_container {
+  height: 200px;
+}
+.workshop_card_image_container img {
+  object-fit: cover;
+  display: block;
+  height: 200px;
+  width: 100%;
+}
+
+.workshop_card .workshop_card_details {
+  padding: 1rem;
+}
+
+.workshop_name_type_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.workshop_name_type_container h2 {
+  font-weight: 500;
+  font-size: 1.3rem;
+  word-wrap: break-word;
+}
+.workshop_name_type_container p {
+  background-color: rgb(110, 188, 210);
+  display: inline-block;
+  text-align: center;
+  padding: 4px;
+  width: 7rem;
+  border-radius: 30px;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  margin-top: 2px;
+}
+.workshop_card_details h3 {
+  margin-top: 0.8rem;
+  font-size: 1rem;
+}
+.workshop_card_details a {
+  display: inline-block;
+  margin-top: 0.8rem;
+  text-decoration: none;
+  font-size: 1.06rem;
+}
+.workshop_card_details svg {
+  color: #716d6d;
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+  position: relative;
+  top: 5px;
+}
+.workshop_card button {
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+}
+.workshop_card .delete_workshop_btn {
+  bottom: 1.5rem;
+  left: 1.5rem;
+}
+.workshop_card .edit_workshop_btn {
+  bottom: 1.5rem;
+  right: 1.5rem;
+}

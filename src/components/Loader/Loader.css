@@ -1,0 +1,38 @@
+.loading {
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  background: #f2efef;
+  display: grid;
+  place-items: center;
+  max-width: 100%;
+}
+.loading > .div1 {
+  width: 10vmax;
+  height: 10vmax;
+  border-bottom: 5px solid rgb(110, 110, 110);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  animation :loadingRotate1 800ms linear infinite;
+
+}
+.loading >.div1>.div2{
+
+  width: 71%;
+  height: 71%;
+  border-bottom: 5px solid rgba(8, 6, 6, 0.741);
+  border-radius: 50%;
+}
+@keyframes loadingRotate1 {
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+@keyframes loadingRotate2 {
+  to {
+    transform: rotateZ(-360deg);
+  }
+}
