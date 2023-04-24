@@ -22,7 +22,7 @@
 }
 
 .workshop_card .workshop_card_details {
-  padding: 1rem;
+  padding: 0.8rem;
 }
 
 .workshop_name_type_container {
@@ -51,11 +51,16 @@
   margin-top: 0.8rem;
   font-size: 1rem;
 }
+
 .workshop_card_details a {
-  display: inline-block;
   margin-top: 0.8rem;
   text-decoration: none;
   font-size: 1.06rem;
+  word-wrap: break-word;
+  display: block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .workshop_card_details svg {
   color: #716d6d;
@@ -73,7 +78,7 @@
 }
 .workshop_card .delete_workshop_btn {
   bottom: 1.5rem;
-  left: 1.5rem;
+  left: 1rem;
 }
 .workshop_card .edit_workshop_btn {
   bottom: 1.5rem;
